@@ -55,6 +55,11 @@
             bindings = <&kp RA(N5)>;
             key-positions = <3 4>;
         };
+
+        AppsKey {
+            bindings = <&kp K_APP>;
+            key-positions = <28 29>;
+        };
     };
 
     keymap {
@@ -63,10 +68,10 @@
         main_layer {
             display-name = "main layer";
             bindings = <
-&kp Q       &kp W       &kp E        &kp R            &kp T        &kp Y      &kp U        &kp I        &kp O       &kp P
-&ht LGUI A  &ht LALT S  &ht LSHFT D  &ht LCTRL F      &kp G        &kp H      &ht LCTRL J  &ht LSHFT K  &ht LALT L  &ht LGUI SEMICOLON
-&kp Z       &kp X       &kp C        &kp V            &kp B        &kp N      &kp M        &kp COMMA    &kp DOT     &kp FSLH
-                                     &lt 1 BACKSPACE  &lt 3 TAB    &kp ENTER  &lt 2 SPACE
+&kp Q       &kp W       &kp E        &kp R            &kp T        &kp Y                       &kp U        &kp I        &kp O       &kp P
+&ht LGUI A  &ht LALT S  &ht LSHFT D  &ht LCTRL F      &kp G        &kp H                       &ht LCTRL J  &ht LSHFT K  &ht LALT L  &ht LGUI SEMICOLON
+&kp Z       &kp X       &kp C        &kp V            &kp B        &kp N                       &kp M        &kp COMMA    &kp DOT     &kp FSLH
+                                     &lt 1 BACKSPACE  &lt 3 TAB    &mt LS(LA(LC(LWIN))) ENTER  &lt 2 SPACE
             >;
         };
 
