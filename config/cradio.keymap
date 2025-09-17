@@ -60,6 +60,21 @@
             bindings = <&kp K_APP>;
             key-positions = <28 29>;
         };
+
+        CtrlW {
+            bindings = <&kp LC(W)>;
+            key-positions = <0 1 2 3>;
+        };
+
+        Minus {
+            bindings = <&kp MINUS>;
+            key-positions = <8 9>;
+        };
+
+        Backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <18 19>;
+        };
     };
 
     keymap {
