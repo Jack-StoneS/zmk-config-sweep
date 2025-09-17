@@ -44,7 +44,7 @@
             display-name = "Num Layer";
             bindings = <
 &kp N1              &kp EXCLAMATION     &kp QUESTION             &kp LBKT                    &kp RBKT        &kp MINUS   &kp N7        &kp N8             &kp N9           &kp SLASH
-&mt LEFT_GUI CARET  &mt LALT AMPERSAND  &mt LEFT_SHIFT ASTERISK  &mt LCTRL LEFT_PARENTHESIS  &kp LS(RPAR)    &kp PLUS    &mt LCTRL N4  &mt LEFT_SHIFT N5  &mt LEFT_ALT N6  &mt LWIN ASTERISK
+&mt LGUI CARET  &mt LALT AMPERSAND  &mt LSHIFT ASTERISK  &mt LCTRL LEFT_PARENTHESIS  &kp LS(RPAR)    &kp PLUS    &mt LCTRL N4  &mt LSHIFT N5  &mt LEFT_ALT N6  &mt LWIN ASTERISK
 &kp HASH            &kp TILDE           &kp NON_US_BSLH          &kp LS(LEFT_BRACE)          &kp LS(RBRC)    &kp PERIOD  &kp N1        &kp N2             &kp N3           &kp EQUAL
                                                                  &mo 1                       &trans          &kp COMMA   &kp N0
             >;
@@ -54,7 +54,7 @@
             display-name = "Nav Layer";
             bindings = <
 &trans               &kp C_VOL_DN         &kp C_VOLUME_UP        &kp C_MUTE                     &kp F13            &kp DEL   &kp BACKSPACE  &kp SPACE     &kp ENTER  &trans
-&mt LEFT_GUI C_PREV  &mt LEFT_ALT C_NEXT  &mt LEFT_SHIFT C_STOP  &mt LEFT_CONTROL C_PLAY_PAUSE  &kp PRINTSCREEN    &kp LEFT  &kp DOWN       &kp UP_ARROW  &kp RIGHT  &trans
+&mt LGUI C_PREV  &mt LALT C_NEXT  &mt LSHIFT C_STOP  &mt LCTRL C_PLAY_PAUSE  &kp PRINTSCREEN    &kp LEFT  &kp DOWN       &kp UP_ARROW  &kp RIGHT  &trans
 &trans               &trans               &trans                 &trans                         &trans             &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &trans
                                                                  &trans                         &trans             &trans    &mo 2
             >;
