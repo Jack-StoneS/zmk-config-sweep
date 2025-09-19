@@ -75,6 +75,11 @@
             bindings = <&kp BACKSLASH>;
             key-positions = <18 19>;
         };
+
+        Quotes {
+            bindings = <&kp SQT>;
+            key-positions = <6 7>;
+        };
     };
 
     keymap {
