@@ -80,6 +80,26 @@
             bindings = <&kp SQT>;
             key-positions = <6 7>;
         };
+
+        Win {
+            bindings = <&kp LWIN>;
+            key-positions = <10 11>;
+        };
+
+        Alt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <11 12>;
+        };
+
+        Shift {
+            bindings = <&kp LSHIFT>;
+            key-positions = <12 13>;
+        };
+
+        Ctrl {
+            bindings = <&kp LCTRL>;
+            key-positions = <13 14>;
+        };
     };
 
     keymap {
