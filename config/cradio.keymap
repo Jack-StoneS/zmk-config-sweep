@@ -100,6 +100,11 @@
             bindings = <&kp LCTRL>;
             key-positions = <13 14>;
         };
+
+        CapsWord {
+            bindings = <&caps_word>;
+            key-positions = <12 17>;
+        };
     };
 
     keymap {
