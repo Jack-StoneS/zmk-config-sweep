@@ -83,22 +83,17 @@
 
         Win {
             bindings = <&kp LWIN>;
-            key-positions = <10 11>;
+            key-positions = <10 19>;
         };
 
         Alt {
             bindings = <&kp LEFT_ALT>;
-            key-positions = <11 12>;
-        };
-
-        Shift {
-            bindings = <&kp LSHIFT>;
-            key-positions = <12 13>;
+            key-positions = <11 18>;
         };
 
         Ctrl {
             bindings = <&kp LCTRL>;
-            key-positions = <13 14>;
+            key-positions = <13 16>;
         };
 
         CapsWord {
